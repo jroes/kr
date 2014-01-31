@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'kr'
+require 'irb'
+
+def connect
+  Kr::connect
+end
+
+IRB.start
